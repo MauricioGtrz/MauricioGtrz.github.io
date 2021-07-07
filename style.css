@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: sans-serif;
+  background: rgb(86, 87, 87);
 }
 
 nav {
@@ -15,10 +16,9 @@ nav {
   justify-content: space-evenly;
   align-items: center;
   height: 15vh;
-  background: rgb(86, 87, 87);
   background: linear-gradient(
     180deg,
-    rgba(86, 87, 87, 1) 94%,
+    rgba(86, 87, 87, 1) 97%,
     rgba(64, 165, 248, 1) 100%
   );
 }
@@ -54,7 +54,7 @@ section {
   scroll-behavior: smooth;
 }
 
-.one {
+/* .one {
   background: mediumaquamarine;
 }
 .two {
@@ -65,4 +65,4 @@ section {
 }
 .four {
   background: coral;
-}
+} */
