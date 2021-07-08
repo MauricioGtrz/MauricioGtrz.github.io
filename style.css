@@ -15,7 +15,7 @@ nav {
   justify-content: space-evenly;
   align-items: center;
   height: 15vh;
-  box-shadow: 0px 5px 7px rgba(64, 165, 248, 0.8);
+  box-shadow: 0px 0.5rem 1rem rgba(64, 165, 248);
 }
 
 .nav-link {
@@ -53,6 +53,7 @@ section {
   position: relative;
   border: 0;
   outline: 0;
+  padding-bottom: 0.2rem;
   cursor: pointer;
 }
 
