@@ -54,6 +54,31 @@ section {
   scroll-behavior: smooth;
 }
 
+.btn {
+  position: relative;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+}
+
+.btn::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 0.175rem;
+  left: 0;
+  bottom: 0;
+  background: rgba(64, 165, 248, 1);
+}
+
+.btn-center::after {
+  transform: scale(0, 1);
+  transition: transform 0.25s ease;
+}
+
+.btn-center:hover::after {
+  transform: scale(1, 1);
+}
 /* .one {
   background: mediumaquamarine;
 }
