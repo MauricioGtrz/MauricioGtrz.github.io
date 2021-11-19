@@ -33,11 +33,12 @@ nav {
 section {
   height: 88vh;
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
   color: white;
   scroll-snap-align: end;
   margin-top: 12vh;
+  padding: 0.5rem calc((100vw - 1100px) / 2);
 }
 
 /* Hide scrollbar for Chrome, Safari and Opera */
@@ -63,7 +64,6 @@ section {
   padding-bottom: 0.2rem;
   cursor: pointer;
 }
-
 .btn::after {
   content: "";
   position: absolute;
@@ -73,12 +73,10 @@ section {
   bottom: 0;
   background: white;
 }
-
 .btn-center::after {
   transform: scale(0, 1);
   transition: transform 0.25s ease;
 }
-
 .btn-center:hover::after {
   transform: scale(1, 1);
 }
@@ -87,18 +85,33 @@ section {
 .full-name {
   font-size: 6rem;
 }
-
 .last-name {
   /* nothing for right now */
 }
-
 .subheading {
   font-size: 2rem;
 }
-
 i {
   margin-top: 1rem;
   margin-right: 1rem;
   color: white;
   font-size: 4rem;
+}
+
+/* About */
+.lg-heading {
+  font-size: 4rem;
+}
+.about-grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.profile-picture {
+  border-radius: 50%;
+  height: 30vh;
+  margin-left: auto;
+  margin-right: 1rem;
+}
+.bio {
+  font-size: 1.5rem;
 }
