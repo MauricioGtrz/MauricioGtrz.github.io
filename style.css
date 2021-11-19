@@ -70,7 +70,7 @@ section {
   height: 0.175rem;
   left: 0;
   bottom: 0;
-  background: var(--blue);
+  background: white;
 }
 
 .btn-center::after {
@@ -81,15 +81,3 @@ section {
 .btn-center:hover::after {
   transform: scale(1, 1);
 }
-/* .one {
-  background: mediumaquamarine;
-}
-.two {
-  background: violet;
-}
-.three {
-  background: orange;
-}
-.four {
-  background: coral;
-} */
