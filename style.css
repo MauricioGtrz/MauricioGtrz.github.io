@@ -19,7 +19,7 @@ nav {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  height: 15vh;
+  height: 12vh;
   background: var(--blue);
 }
 
@@ -31,13 +31,13 @@ nav {
 }
 
 section {
-  height: 85vh;
+  height: 88vh;
   display: flex;
   justify-content: center;
   align-items: center;
   color: white;
   scroll-snap-align: end;
-  margin-top: 15vh;
+  margin-top: 12vh;
 }
 
 /* Hide scrollbar for Chrome, Safari and Opera */
@@ -55,6 +55,7 @@ section {
   scroll-behavior: smooth;
 }
 
+/* Navbar animation */
 .btn {
   position: relative;
   border: 0;
@@ -80,4 +81,24 @@ section {
 
 .btn-center:hover::after {
   transform: scale(1, 1);
+}
+
+/* Home */
+.full-name {
+  font-size: 6rem;
+}
+
+.last-name {
+  /* nothing for right now */
+}
+
+.subheading {
+  font-size: 2rem;
+}
+
+i {
+  margin-top: 1rem;
+  margin-right: 1rem;
+  color: white;
+  font-size: 4rem;
 }
