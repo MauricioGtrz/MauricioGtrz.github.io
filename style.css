@@ -1,6 +1,6 @@
 :root {
-  --grey: hsl(0, 0, 34);
-  --blue: hsl(207, 93, 61);
+  --grey: #363636;
+  --blue: #43738b;
 }
 
 * {
@@ -20,13 +20,14 @@ nav {
   justify-content: space-evenly;
   align-items: center;
   height: 15vh;
-  box-shadow: 0px 0.5rem 1rem var(--blue);
+  background: var(--blue);
 }
 
 .nav-link {
   text-decoration: none;
   color: white;
   font-size: 1.5rem;
+  background: unset;
 }
 
 section {
