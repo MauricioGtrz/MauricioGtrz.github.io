@@ -100,7 +100,8 @@ i {
 
 /* About */
 .lg-heading {
-  font-size: 4rem;
+  font-size: 5rem;
+  margin-bottom: 2rem;
 }
 .about-grid-container {
   display: grid;
@@ -114,4 +115,6 @@ i {
 }
 .bio {
   font-size: 1.5rem;
+  display: flex;
+  align-items: center;
 }
