@@ -1,6 +1,7 @@
 :root {
   --grey: #363636;
-  --blue: #43738b;
+  --blue: #3fa5f8;
+  /* --blue: #43738b; */
 }
 * {
   margin: 0;
@@ -167,15 +168,19 @@ section {
   border: 0;
   margin-bottom: 0.3rem;
 }
-
 .btn-light:hover,
 .btn-dark:hover {
   background: var(--blue);
 }
-
 .btn-light {
   background: grey;
 }
 .btn-dark {
   background: black;
+}
+
+/* About Me */
+.contact-items {
+  margin-left: 2rem;
+  font-size: 2rem;
 }
