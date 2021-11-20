@@ -91,6 +91,9 @@ section {
   color: white;
   font-size: 4rem;
 }
+.home-icon:hover {
+  color: var(--blue);
+}
 .contentDiv {
   position: relative;
 }
@@ -118,7 +121,7 @@ section {
   font-size: 3rem;
 }
 
-/* About */
+/* About Me */
 .lg-heading {
   font-size: 5rem;
   margin-bottom: 2rem;
@@ -179,12 +182,28 @@ section {
   background: black;
 }
 
-/* About Me */
-.contact-items {
-  margin-left: 2rem;
-  font-size: 2rem;
+/* Information */
+.info-grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 3rem;
+  /* margin-left: 2rem;
+  font-size: 2rem; */
 }
-
+.info-item {
+  font-size: 2rem;
+  border: 3px var(--blue) solid;
+  padding: 1rem;
+}
 span {
   color: var(--blue);
+  font-weight: bold;
+}
+.about-link {
+  text-decoration: none;
+  color: white;
+}
+.about-link:hover {
+  text-decoration: underline;
+  text-decoration-color: var(--blue);
 }
